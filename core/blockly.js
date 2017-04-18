@@ -53,6 +53,7 @@ goog.require('Blockly.WorkspaceSvg');
 goog.require('Blockly.constants');
 goog.require('Blockly.inject');
 goog.require('Blockly.utils');
+goog.require('Blockly.CodlyCustom');
 goog.require('goog.color');
 goog.require('goog.userAgent');
 

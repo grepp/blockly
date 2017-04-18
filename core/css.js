@@ -81,6 +81,8 @@ Blockly.Css.inject = function(hasCss, pathToMedia) {
   var text = '.blocklyDraggable {}\n';
   if (hasCss) {
     text += Blockly.Css.CONTENT.join('\n');
+    //Codly custom : append codly's css style.    
+    text += Blockly.CodlyCustom.CSS.join('\n');
     if (Blockly.FieldDate) {
       text += Blockly.FieldDate.CSS.join('\n');
     }
@@ -841,3 +843,4 @@ Blockly.Css.CONTENT = [
 
   ''
 ];
+
